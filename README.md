@@ -2,7 +2,7 @@
 # Grupo 2 - Mateus Melo Fernandes, Robson Júnior Schultz Dias e Vitor Hugo Burns Lessa
 # CC1Mb
 
-Este repositório contém os arquivos referentes ao projeto integrado para as disciplinas de banco de dados 1, construção de software Web e experiência e interface com o Usuário. A pasta "bd1" contém as seguintes informações:
+Este repositório contém os arquivos referentes ao projeto integrado para a disciplina de banco de dados 1. A pasta "bd1" contém as seguintes informações:
 
 ## Arquivos do Projeto
 
