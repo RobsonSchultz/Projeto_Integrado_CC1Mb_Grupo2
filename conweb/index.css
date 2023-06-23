@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #FEFEFE;
+    --menu-color: #2C2763;
+    --options-color: #454081;
+    --header-bg-color: #E4E4E4;
+    --text-color: #000000;
+    --button-color: #60BC5C;
+}
+
+body {
+    display: flex;
+}
+
+section#menuLateral {
+    color: var(--bg-color);
+    background-color: var(--menu-color);
+    width: 20vw;
+    height: 100vh;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+img#perfil {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+div#menuOptions {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px 0 50px;
+}
+
+div#menuOptions a {
+    font-size: 18px;
+    color: var(--bg-color);
+    background-color: var(--options-color);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+header {
+    background-color: var(--header-bg-color);
+    height: 80px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#resumo {
+    display: flex;
+    width: 65vw;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: var(--header-bg-color);
+    border-radius: 25px;
+    height: 110px;
+    width: 350px;
+}
+
+.box h4 {
+    margin-top: 10px;
+}
+
+.box h1 {
+    font-size: 50px;
+}
+
+section#quadro {
+    margin-bottom: 20px;
+}
+
+section#quadro h1 {
+    font-size: 30px;
+}
+
+div.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.image img {
+    width: 420px;
+    border-radius: 25px 25px 0 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.image h2 {
+    background-color: var(--header-bg-color);
+    color: var(--text-color);
+    border-radius: 0 0 25px 25px;
+    margin-top: -10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h4.enviardocs {
+    max-width: 700px;
+    font-size: 18px;
+}
+
+div#boxenvio {
+    height: 420px;
+    width: 1000px;
+    background-color: var(--header-bg-color);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttoncertificado {
+    cursor: pointer;
+    background-color: var(--button-color);
+    color: var(--bg-color);
+    border-radius: 30px;
+    width: 40%;
+    height: 60px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+div#upload {
+    border: 2px solid black;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+div#boxenvio a i {
+    font-size: 80px;
+}
+
+div#boxenvio h2 {
+    margin: 20px;
+}
+
+div#boxenvio h3 {
+    margin: 20px;
+}
+
+div#boxenvio h4 {
+    max-width: 400px;
+}
+
+div.certificado {
+    background-color: var(--header-bg-color);
+    width: 80%;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: left;
+    display: flex;
+}
+
+div.certificado img {
+    width: 200px;
+}
+
+div.certificado:last-child {
+    margin-bottom: 20px;
+}
+
+#barraPesquisa {
+    background-color: var(--header-bg-color);
+    width: 600px;
+    height: 35px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+div#boxAjuda {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+div#boxDuvidas {
+    height: 400px;
+    width: 400px;
+    background-color: var(--header-bg-color);
+    margin: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div#boxDuvidas i {
+    font-size: 100px;
+}
+
+div#boxContato {
+    height: 400px;
+    width: 400px;
+    background-color: var(--header-bg-color);
+    margin: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div#boxContato i {
+    font-size: 100px;
+}
